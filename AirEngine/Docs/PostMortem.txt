@@ -1,0 +1,87 @@
+========================
+AirEngine - Post Mortem
+========================
+When I started the semester, I decided to start my engine without any references besides past memory
+and lecture content. It wasn't until Collisions that I actually opened up my GAP 275 project for
+reference. I didn't copy anything from that project until then, and even then ended up rewriting the
+collisions to use a process. That was my first mistake, since I know I probably could have used
+more guidance from my past projects. Also from the beginning of the semester, I never planned to take 
+this engine further than this semester, thinking I would simply restart and make a new engine next time. 
+However, I've since changed my stance.
+
+I made a game engine. It's not great, and it's not done, but it is a game engine. It has all the
+components of a game engine. And on top of that, I also made PONG for the first time within this engine. 
+I'm oddly proud of that achievement. I also see the potential to start making other games within this 
+engine, but first I do want to rewrite each of the components. There's a lot to be desired, and I see 
+where I made mistakes during the semester.
+
+My engine is a foundation for what it will become. It's my new side project, and will eventually be my 
+2D game engine of choice. Previously I used GameMaker Studio, which works, but has limited programming
+functionality (though there's quite a bit there). But something as simple as a function has to be run
+as a "script". At any rate, I see AirEngine being a usable 2D game engine with a little more work.
+
+GAP 301
+--------
+I took this class online first, and maybe 30% of that information stuck afterwords. The online course is
+written in a very textbook manner, and I found myself copying the code rather than learning what the code
+actually does. However, this time around I made the game engine, from scratch, in 4 months, and I hand 
+wrote about 95% of it, with help from you (Rez) and various other sources (GAP 275). And I understood it.
+
+I also have a better understanding of the online content and why they made some of the choices they did.
+I went into this class with the hope of understanding game engine architecture, and I feel I've achieved 
+that. I also have a game engine that I could make other games on. Its not yet intuitive for a designer,
+but with some more work it will get there.
+
+LIKES - I thought the class was setup much better in the virtual class compared to the online class. It
+forced me to make decisions and write the code myself basically. I feel I made some generally good 
+decisions, but things can always be better. It felt like it was built on GAP 275 compared to the online
+version, which felt quite a bit out of place.
+
+DISLIKES - This goes mainly for the online version, but the difficulty seems to ramp up very suddenly
+in the latter half. I know Angelo and Paul worked to-the-bone when they took the online class with me,
+but I was lost half way in. I should have committed more time to the class (which I did this semester),
+and this semester, I experienced similar difficulties, but overcame them.
+
+There was a period of about 2 weeks where I was lost motivation to do anything. I don't have anything
+to blame or any reason, but it set me back on all my work. I'm still trying to catch up.
+
+Conclusion
+-----------
+This is being written on 5/14. I decided to try and do each final separately since I had 3 individual
+projects after the midterm. I have about 2 weeks to do my Graphics final, but I'm hoping it takes less
+time. I also have a wedding to attend on the 21-23. If I have more time, here's what I want to get done 
+on the engine:
+
+* World loads from XML (data-driven)
+* Call CreateGameObject's from Lua (Lua)
+
+And with that, I should meet the minimum requirements. I am close, but I may be out of time.
+
+Update 5/15
+------------
+Had to do quite a bit of work to get the objects properly data driven. However, they actually load
+from a lua file now. After seeing that work as well as it did, my mental state went from being "I'm
+probably not passing" to "I'm probably not failing." While there is still that chance, I'm feeling
+much more confident in my abilities, and my engine.
+
+Though, the engine has bugs when an expected file is missing, so for now, don't remove any files.
+It's still rough around the edges.
+
+Update 5/16
+------------
+I gave myself until today to meet the minimum requirements, and although it's probably not what was
+intended, it feels like an accomplishment. My game isn't entirely data driven, but it's better than
+before. For instance: the game logic is in C++ objects. I'm not sure if that's the approach, or if
+that kind of thing should be in Lua. When I asked "What should be in Lua?" the answer was a variation
+of "It Depends," which I understand as "the Lua code should be the designer's code", but was a point 
+of confusion for what should and shouldn't be in the C++ game logic.
+
+Final Conclusion
+-----------------
+The engine works as an engine. It's rough around the edges and has bugs when files are unexpectedly
+missing, but those can be fixed over time. I think It'll be ok, but if not, that just means more time
+to work on this engine next semester.
+
+
+
+

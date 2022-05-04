@@ -1,0 +1,9 @@
+References
+==========
+
+Game Coding Complete (4th Edition), Mike McShaffry and David "Rez" Graham
+
+https://stackoverflow.com/questions/8619133/how-do-i-make-main-a-friend-of-my-class
+
+Thanks:
+Miles, Erin, Rez, Thomas,

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AirEngine", "AirEngine\AirEngine.vcxproj", "{B4ED8C30-9B3C-4EB5-A38D-E47AE12F191A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D97BBD7C-B68B-47B4-A58F-0C88608A0D5F} = {D97BBD7C-B68B-47B4-A58F-0C88608A0D5F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{D97BBD7C-B68B-47B4-A58F-0C88608A0D5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4ED8C30-9B3C-4EB5-A38D-E47AE12F191A}.Debug|x64.ActiveCfg = Debug|x64
+		{B4ED8C30-9B3C-4EB5-A38D-E47AE12F191A}.Debug|x64.Build.0 = Debug|x64
+		{B4ED8C30-9B3C-4EB5-A38D-E47AE12F191A}.Release|x64.ActiveCfg = Release|x64
+		{B4ED8C30-9B3C-4EB5-A38D-E47AE12F191A}.Release|x64.Build.0 = Release|x64
+		{D97BBD7C-B68B-47B4-A58F-0C88608A0D5F}.Debug|x64.ActiveCfg = Debug|x64
+		{D97BBD7C-B68B-47B4-A58F-0C88608A0D5F}.Debug|x64.Build.0 = Debug|x64
+		{D97BBD7C-B68B-47B4-A58F-0C88608A0D5F}.Release|x64.ActiveCfg = Release|x64
+		{D97BBD7C-B68B-47B4-A58F-0C88608A0D5F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90242BB8-2A48-47D5-8A6A-B949F76DF9C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3cd32172-9a7c-43bc-b5d6-2b138e4d8182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{5bd710bb-36ec-40f0-9303-c994cc8bd14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utility">
+      <UniqueIdentifier>{27f8e9bc-4a6c-4839-aa2c-a8092c72fcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resource">
+      <UniqueIdentifier>{4b021f75-c0ee-49df-9c75-35de607755d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{43e8715a-c862-4271-b8b9-70b87e2e2bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\SFML">
+      <UniqueIdentifier>{71a2340b-63ab-48c3-a74e-6a7f3210183a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject">
+      <UniqueIdentifier>{ac34460f-2f40-417d-8401-31494c394f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Audio">
+      <UniqueIdentifier>{d8956bfc-3e9f-4f87-9dbb-6f2f39552aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Process">
+      <UniqueIdentifier>{5394180d-9c0f-4f83-acbd-9df5ac30f307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event">
+      <UniqueIdentifier>{17ddfdc0-3f18-414e-b74b-95e3f5312265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{f125dbd7-e418-4cf8-8f12-5a6e0aebb627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\TinyXML">
+      <UniqueIdentifier>{460f03dc-b2b5-4e59-a95f-87dc6b618740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scripting">
+      <UniqueIdentifier>{1b31b206-30c9-4843-a08c-aea8351854d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\LuaAdapter">
+      <UniqueIdentifier>{12af85b3-494d-4683-8e07-bba6e85b02b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World">
+      <UniqueIdentifier>{ad91e31b-9d90-4227-acef-d29a1d862403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Bleach">
+      <UniqueIdentifier>{b4d505bd-34f3-447a-9b22-97c763dcf9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game">
+      <UniqueIdentifier>{2f2ebf15-4734-4a10-8d7c-ddbfb2ff697f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Process\Processes">
+      <UniqueIdentifier>{6b234c8a-ba73-4075-8a55-622fb54bc254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Components">
+      <UniqueIdentifier>{3d180e9c-a875-4bff-948f-face164b3e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{85cc7d2c-1180-48a2-9ea8-2824957ecb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Components\Interface">
+      <UniqueIdentifier>{5251cc37-092e-4b2b-a770-3e83c3591cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\System">
+      <UniqueIdentifier>{748b6810-2086-42a7-8626-d12cd6b98697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject\Components\DefaultComponents">
+      <UniqueIdentifier>{f7f5518b-c3f3-478b-8d93-a49aa2e06873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\TypeAssociations">
+      <UniqueIdentifier>{0e72e39d-899e-415b-a4e6-cd7b0cf7e31a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AirEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceFactory.cpp">
+      <Filter>Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLSprite.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLSystem.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLTexture.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLWindow.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectFactory.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\TinyXML\tinyxml2.cpp">
+      <Filter>Include\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLSound.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioManager.cpp">
+      <Filter>Core\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLSoundBuffer.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLMusic.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProcessManager.cpp">
+      <Filter>Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IProcess.cpp">
+      <Filter>Core\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventManager.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WorldManager.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Bleach\BleachNew.cpp">
+      <Filter>Include\Bleach</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SFMLText.cpp">
+      <Filter>Library\SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptingManager.cpp">
+      <Filter>Core\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DelayProcess.cpp">
+      <Filter>Core\Process\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrintProcess.cpp">
+      <Filter>Core\Process\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CallbackProcess.cpp">
+      <Filter>Core\Process\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationProcess.cpp">
+      <Filter>Core\Process\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IRenderable.cpp">
+      <Filter>Core\GameObject\Components\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ITickable.cpp">
+      <Filter>Core\GameObject\Components\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IComponent.cpp">
+      <Filter>Core\GameObject\Components\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ControllerComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NameComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TransformComponent.cpp">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentFactory.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentManager.cpp">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Core\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectManager.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceEntry.cpp">
+      <Filter>Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyXML.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AirEngine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ISystem.h">
+      <Filter>Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector2.h">
+      <Filter>Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Logger.h">
+      <Filter>Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceFactory.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLSprite.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLSystem.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLTexture.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IWindow.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLWindow.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectFactory.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TinyXML\tinyxml2.h">
+      <Filter>Include\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ISound.h">
+      <Filter>Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLSound.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioManager.h">
+      <Filter>Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLSoundBuffer.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IMusic.h">
+      <Filter>Core\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLMusic.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProcessManager.h">
+      <Filter>Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IProcess.h">
+      <Filter>Core\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventManager.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IEvent.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptingManager.h">
+      <Filter>Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LuaAdapter\LuaAdapter.hpp">
+      <Filter>Include\LuaAdapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LuaAdapter\LuaFunction.hpp">
+      <Filter>Include\LuaAdapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LuaAdapter\LuaTable.hpp">
+      <Filter>Include\LuaAdapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WorldManager.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IInput.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLInput.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Bleach\BleachNew.h">
+      <Filter>Include\Bleach</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Bleach\BleachNewConfig.h">
+      <Filter>Include\Bleach</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IText.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SFMLText.h">
+      <Filter>Library\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ISprite.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IGame.h">
+      <Filter>Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Macros.h">
+      <Filter>Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DelayProcess.h">
+      <Filter>Core\Process\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrintProcess.h">
+      <Filter>Core\Process\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CallbackProcess.h">
+      <Filter>Core\Process\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationProcess.h">
+      <Filter>Core\Process\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Processes.h">
+      <Filter>Core\Process\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ITickable.h">
+      <Filter>Core\GameObject\Components\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IComponent.h">
+      <Filter>Core\GameObject\Components\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IRenderable.h">
+      <Filter>Core\GameObject\Components\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AirEngineMain.h">
+      <Filter>Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ControllerComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DefaultComponents.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NameComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransformComponent.h">
+      <Filter>Core\GameObject\Components\DefaultComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentFactory.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentManager.h">
+      <Filter>Core\GameObject\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectManager.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceEntry.h">
+      <Filter>Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Music.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundBuffer.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TinyXML.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\XML.h">
+      <Filter>Core\TypeAssociations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileData.h">
+      <Filter>Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IXML.h">
+      <Filter>Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ITexture.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ISoundBuffer.h">
+      <Filter>Core\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
